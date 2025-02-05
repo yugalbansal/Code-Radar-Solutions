@@ -14,6 +14,6 @@ int main() {
         printf("28");
     } 
     else
-    printf("Invalid Month")
+    printf("Invalid Month");
     return 0;
 }
