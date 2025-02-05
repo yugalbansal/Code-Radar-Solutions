@@ -9,6 +9,6 @@ int main() {
     int d;
     scanf("%d",&d);
     char *day[]={"Monday","Tuesday","Wednesday","Thrusday","Friday","Saturday","Sunday"};
-    printf("%s",day[d-1]);
+    printf("%c",day[d-1]);
     return 0;
 }
