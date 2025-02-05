@@ -10,7 +10,7 @@ int main() {
     scanf("%d",&d);
     char *day[]={"Monday","Tuesday","Wednesday","Thrusday","Friday","Saturday","Sunday"};
     if(d>=1 && d<=7)
-    printf("%c",day[d-1]);
+    printf("%s",day[d-1]);
     else
     printf("Invalid");
     return 0;
