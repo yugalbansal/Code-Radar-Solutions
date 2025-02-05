@@ -4,9 +4,10 @@ int main() {
     int a, b;
     char op;
     
-    // Input two numbers and an operator
-    printf("Enter two numbers and an operator (e.g., 5 3 +): ");
+   
+    scanf("%d %d %c", &a, &b, &op);
 
+  
     switch (op) {
         case '+':
             printf("%d\n", a + b);
