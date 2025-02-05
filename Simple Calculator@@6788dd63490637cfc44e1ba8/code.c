@@ -5,7 +5,7 @@ int main() {
     char op;
 
     if (scanf("%d %d %c", &a, &b, &op) != 3) {
-        printf("Error");
+        printf("error");
         return 1;
     }
 
@@ -21,13 +21,13 @@ int main() {
     } 
     else if (op == '/') {
         if (b == 0) {
-            printf("Error");
+            printf("error");
         } else {
             printf("%d\n", a / b);
         }
     } 
     else {
-        printf("Error");
+        printf("error");
     }
 
     return 0;
