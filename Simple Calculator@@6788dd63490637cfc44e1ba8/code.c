@@ -17,12 +17,10 @@ int main() {
             printf("%d\n", a * b);
             break;
         case '/':
-           
-                printf("%d\n", a / b);
-        
+            printf("%d\n", a / b);
             break;
         default:
-            printf("Error\n");
+        printf("Error\n");
     }
 
     return 0;
