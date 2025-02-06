@@ -19,7 +19,7 @@ int main() {
         arr1[k]=arr[k];
     }
     for(int i=0;i<a;i++){
-        printf("%d",arr[i]);
+        printf("%d",arr1[i]);
     }
 
     return 0;
