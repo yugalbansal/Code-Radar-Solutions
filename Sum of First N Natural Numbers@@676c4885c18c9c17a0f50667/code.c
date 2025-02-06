@@ -8,8 +8,8 @@ int main() {
     // printf("%s", welcome());
     int a,sum=1;
     scanf("%d",&a);
-    for(int i=1;i<=n;i++){
-        sum=sum+i;
+    for(int i=1;i<=a;i++){
+        sum+=i;
     }
     printf("%d",sum);
     return 0;
