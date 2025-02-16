@@ -1,11 +1,13 @@
-// Your code here...
 #include <stdio.h>
+
+void decimalToBinary(int n) {
+    if (n > 1) decimalToBinary(n / 2);
+    printf("%d", n % 2);
+}
 
 int main() {
     int num;
     scanf("%d", &num);
-    for (int i = 3; i >= 0; i--) 
-        printf("%d", (num >> i) & 1); 
-    
+    decimalToBinary(num);
     return 0;
 }
