@@ -4,7 +4,7 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    int c = ~(0<<b)&a;
-    printf("%d",c);
+    a=a|(1<<b);
+    printf("%d",a);
     return 0;
 }
