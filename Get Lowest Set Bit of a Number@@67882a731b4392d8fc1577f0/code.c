@@ -4,8 +4,8 @@
 int main(){
     int a;
     scanf("%d",&a);
-    a=a & -a;
-    printf("%d",a);
+    int c = __builtin_ctz(a);
+    printf("%d",c);
 
     return 0;
 }
