@@ -8,7 +8,7 @@ int main() {
     // printf("%s", welcome());
     int a;
     scanf("%d",&a);
-    int msb = a >> sizeof(a)*8-1;
-    (msb & 1)?printf("Set"):printf("Not Set");
+    int msb = a >> 31;
+    ((a>>31) & 1)?printf("Set"):printf("Not Set");
     return 0;
 }
