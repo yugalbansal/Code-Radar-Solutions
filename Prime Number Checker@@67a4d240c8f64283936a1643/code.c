@@ -6,8 +6,8 @@ int isPrime(int a){
     }
     else{
         for(int i=2;i*i<=a;i++){
-            return 0;
+            return 1;
         }
-        return 1;
+        return 0;
     }
 }
