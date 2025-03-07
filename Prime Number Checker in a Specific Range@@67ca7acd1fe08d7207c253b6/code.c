@@ -12,10 +12,10 @@ int isprime(int c){
     }
 }
 int printPrimesInRange(int a,int b){
-    for(int i=a;i<=b;i++){
-        if(isprime(i)){
-            printf("%d",i);
+    for(int num=a;num<=b;num++){
+        if(isprime(num)){
+            printf("%d",num);
         }
     }
-    
+
 }
