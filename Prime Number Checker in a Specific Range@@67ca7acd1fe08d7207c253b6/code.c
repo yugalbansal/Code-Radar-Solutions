@@ -1,5 +1,5 @@
 // Your code here...
-int isprime(int c){
+int isprime(int num){
     if(c==0 || c==1){
         return 0;
     }
