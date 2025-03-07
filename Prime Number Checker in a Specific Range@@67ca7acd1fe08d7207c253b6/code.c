@@ -1,6 +1,6 @@
 // Your code here...
 int isprime(int num){
-    if(c==0 || c==1){
+    if(num==0 || num==1){
         return 0;
     }
     else{
