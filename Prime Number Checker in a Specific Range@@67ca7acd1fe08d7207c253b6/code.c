@@ -1,6 +1,10 @@
 // Your code here...
 int isprime(int num){
-    if(num==0 || num==1){
+    
+}
+int printPrimesInRange(int a,int b){
+    for(int num=a;num<=b;num++){
+       if(num==0 || num==1){
         return 0;
     }
     else{
@@ -10,15 +14,6 @@ int isprime(int num){
         }
         return 1;
     }
-}
-int printPrimesInRange(int a,int b){
-    for(int num=a;num<=b;num++){
-        if(isprime(num)){
-            printf("%d ",num);
-        }
-        else{
-            printf("No prime numbers");
-        }
     }
 
 }
