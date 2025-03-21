@@ -34,6 +34,9 @@ void selectionSort(int arr[], int n) {
 }
 
 int kthSmallest(int arr[], int n, int k) {
+    if (k > n || k <= 0) {
+        return -1;  // Return -1 for invalid k values
+    }
     selectionSort(arr, n); // Sort the array using selection sort
     return arr[k - 1]; // Return the k-th smallest element (1-based index)
 }
