@@ -32,3 +32,8 @@ void selectionSort(int arr[], int n) {
         arr[minIndex] = temp;
     }
 }
+
+int kthSmallest(int arr[], int n, int k) {
+    selectionSort(arr, n); // Sort the array using selection sort
+    return arr[k - 1]; // Return the k-th smallest element (1-based index)
+}
