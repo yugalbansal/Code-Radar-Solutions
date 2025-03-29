@@ -29,7 +29,7 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr2[i]>max){
             max=arr2[i+1];
-            index=i;
+            index=i+1;
         }
     }
     if(max>(n/2)){
