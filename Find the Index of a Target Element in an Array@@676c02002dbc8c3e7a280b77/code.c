@@ -8,7 +8,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int k,index;
+    int k,index=-1;
     scanf("%d",&k);
     for(int i=0;i<n;i++){
         if(arr[i]==k){
@@ -16,7 +16,7 @@ int main(){
             break;
         }
     }
-    if(!index){
+    if(index>=0){
         printf("%d",index);
     }
     else{
