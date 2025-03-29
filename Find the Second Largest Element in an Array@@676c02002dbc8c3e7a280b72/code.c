@@ -26,14 +26,7 @@ int main() {
     if(arr[0] == arr[n - 1]) {
         printf("%d",arr[0]);
     } else {
-        int secondLargest = arr[n - 1];
-        for (int i = n - 2; i >= 0; i--) {
-            if(arr[i] < arr[n - 1]) {
-                secondLargest = arr[i];
-                break;
-            }
-        }
-        printf("%d", secondLargest);
+        printf("%d",arr[n-1]);
     }
 
     return 0;
