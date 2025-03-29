@@ -5,7 +5,7 @@ void pattern(int n){
         for(int j=n;j<=1;j--){
             int a=1;
             printf("%d ",a);
-            a++
+            a++;
         }
         printf("\n");
     }
