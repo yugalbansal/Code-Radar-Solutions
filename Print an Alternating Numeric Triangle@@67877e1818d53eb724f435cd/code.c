@@ -1,31 +1,22 @@
-// // Your code here...
-// #include <stdio.h>
-// int main(){
-//     int a;
-//     scanf("%d",&a);
-//     for(int i=1;i<=a;i++){
-//         int n=0;
-//         for(int j=0;j<i;j++){
-//             if(i==1){printf("1");}
-//             else{printf("%d ",n+j);}
-//         }
-//         printf("\n");
-//     }
-// }
 #include <stdio.h>
 
-int main() {
-    int n;
-    scanf("%d", &n);
+void pattern(int n){
+    int start=1;
+    for(int i=0;i<n;i++){
+        int flip = 1;
+        if(i%2==0){
+        for(int j=0;j<i;j++){
+            printf("%d",flip);
+            flip=flip-start;
 
-    for (int i = 0; i < n; i++) {
-        int num = (i % 2 == 0) ? 1 : 0; // Ensure first row starts with 1
-        for (int j = 0; j <= i; j++) {
-            printf("%d ", num);
-            num = 1 - num; // Toggle between 0 and 1
         }
-        printf("\n");
+        }
     }
+}
 
+int main(){
+    int n;
+    scanf("%d",&n);
+    pattern(n);
     return 0;
 }
