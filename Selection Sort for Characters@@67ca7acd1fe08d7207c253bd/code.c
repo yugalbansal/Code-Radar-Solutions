@@ -1,6 +1,6 @@
 // Your code here...
 // Your code here...
-void selectionSort(int arr[],int n){
+void selectionSort(char arr[],int n){
     int temp,minindex;
     for(int i=0;i<n-1;i++){
         int minindex=i;
