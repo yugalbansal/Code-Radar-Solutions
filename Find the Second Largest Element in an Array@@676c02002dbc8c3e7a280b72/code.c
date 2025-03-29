@@ -23,10 +23,13 @@ int main() {
         scanf("%d", &arr[i]);
     }
     sort(arr,n);
-    if(arr[0] == arr[n - 1]) {
-        printf("%d",arr[0]);
-    } else {
+    if(n>1){
+
         printf("%d",arr[n-1]);
+    }
+    else{
+        printf("-1");
+    }
     }
 
     return 0;
