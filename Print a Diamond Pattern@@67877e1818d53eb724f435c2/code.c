@@ -6,7 +6,7 @@ void pattern(int n){
         int space = abs(n-i-1);
         int star = 2 * (n-space)-1;
         // space 
-        for(int j=1;j<space;j++){
+        for(int j=0;j<space;j++){
             printf(" ");
         }
         // star
