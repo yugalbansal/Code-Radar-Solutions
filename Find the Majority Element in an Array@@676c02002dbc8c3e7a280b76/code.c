@@ -28,8 +28,8 @@ int main(){
     int index=0;
     for(int i=0;i<n;i++){
         if(arr2[i]>max){
-            max=arr2[i+1];
-            index=i+1;
+            max=arr2[i];
+            index=i;
         }
     }
     if(max>(n/2)){
