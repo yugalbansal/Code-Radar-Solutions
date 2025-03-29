@@ -25,7 +25,7 @@ int main() {
     sort(arr,n);
     if(n>1){
 
-        printf("%d",arr[n-1]);
+        printf("%d",arr[n-2]);
     }
     else{
         printf("-1");
