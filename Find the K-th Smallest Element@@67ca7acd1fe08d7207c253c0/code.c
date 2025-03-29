@@ -12,7 +12,7 @@ void selectionSort(int arr[],int n){
         arr[min]=temp;
     }
 }
-int KthSmallest(int arr[],int n,int k){
+int kthSmallest(int arr[],int n,int k){
     selectionSort(arr,n);
     if(k>0 && k<=n){
         return arr[k];
