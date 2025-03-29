@@ -1,5 +1,6 @@
 #include <stdio.h>
 void sort(int arr[],int n){
+    int temp;
     for(int i=0;i<n;i++){
         int flag=0;
         for(int j=0;j<n;j++){
