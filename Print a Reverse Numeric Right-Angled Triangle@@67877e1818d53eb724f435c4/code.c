@@ -2,8 +2,8 @@
 
 void pattern(int n){
     for(int i=1;i<=n;i++){
-        for(int j=n;j<=1;j--){
             int a=1;
+        for(int j=n;j>=1;j--){
             printf("%d ",a);
             a++;
         }
