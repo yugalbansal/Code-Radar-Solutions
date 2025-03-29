@@ -8,19 +8,19 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int k;
+    int k,index;
     scanf("%d",&k);
     for(int i=0;i<n;i++){
         if(arr[i]==k){
-            printf("%d",i);
+            index =i;
             break;
         }
-        else{ 
-
-            printf("-1");
-        }
-        
-        
+    }
+    if(!index){
+        printf("%d",index);
+    }
+    else{
+        printf("-1");
     }
    
 }
