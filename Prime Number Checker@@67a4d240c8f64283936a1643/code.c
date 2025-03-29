@@ -1,14 +1,13 @@
-// Your code here...
-
-int isPrime(int a){
-    if(a==0 || a==1){
-        return 0;
+void isPrime(int num){
+    if(num==0 || n==1){
+        return 1;
     }
-    else{
-        for(int i=2;i*i<=a;i++){
-            if(a%i==0)
+    for(int i=0;i*i<num;i++){
+        if(num%i==0){
             return 0;
         }
-        return 1;
+        else{
+            return 1;
+        }
     }
 }
