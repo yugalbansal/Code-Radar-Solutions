@@ -4,7 +4,7 @@ void pattern(int n){
     for(int i=1;i<=n;i++){
         // space 
         for(int j=0;j<i;j++){
-            printf(" ")
+            printf(" ");
         }
 
         // star 
@@ -14,7 +14,7 @@ void pattern(int n){
         }
         // space
         for(int j=0;j<i;j++){
-            printf(" ")
+            printf(" ");
         }
         printf("\n");
     }
