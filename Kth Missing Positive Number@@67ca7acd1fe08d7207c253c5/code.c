@@ -1,25 +1,16 @@
 // Your code here...
 int findKthMissing(int arr[],int n,int k){
-    if(arr[0]>1){
-        int miss=arr[0]-1;
-        if(k<miss){
-            return k;
-        }
-        else{
-            k-=miss;
-        }
+   int low=0,high=n-1,mid;
+   while(low<=high){
+    mid=(low+high)/2
+    int missing = arr[mid]-(mid+1);
+    if(missing<k){
+        low=mid+1;
     }
-
-    for(int i=0;i<n;i++){
-        int curr=arr[i];
-        int next=arr[i+1];
-        int missbet=next-1-curr;
-        if(k<=missbet){
-            return curr+k;
-        }
-        else{
-            k-=missbet;
-        }
+    else{
+        high=mid-1;
     }
-    return arr[n-1]+k;
+   }
+   int missingbefore=arr[low-1]-(low);
+   return arr[low-1]+k-missingbefore;
 }
