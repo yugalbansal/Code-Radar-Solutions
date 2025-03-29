@@ -7,6 +7,7 @@ void pattern(int n){
             printf("%d",flip);
             flip=1-flip;
         }
+        printf("\n");
     }
 }
 
