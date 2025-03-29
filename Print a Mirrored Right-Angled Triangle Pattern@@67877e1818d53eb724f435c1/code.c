@@ -3,7 +3,7 @@
 void pattern(int n){
     for(int i=0;i<n;i++){
         // space 
-        for(int j=n-1;j>0;j--){
+        for(int j=0;j<n-i-1;j++){
             printf(" ");
         }
         // star
