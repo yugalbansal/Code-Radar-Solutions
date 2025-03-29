@@ -26,7 +26,7 @@ int main() {
     if(arr[1]==arr[0]){
         printf("%d",arr[2]);
     }
-    else if(n>1){
+    else if(n>1 && arr[0]!=arr[n-1]){
 
         printf("%d",arr[1]);
     }
