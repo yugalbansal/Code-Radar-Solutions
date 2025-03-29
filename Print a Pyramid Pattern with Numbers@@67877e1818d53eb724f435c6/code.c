@@ -7,7 +7,7 @@ void pattern(int n){
             printf(" ");
         }
         // star
-        for(int j=1;j<=n;j++){
+        for(int j=1;j<=i;j++){
             printf("%d ",j);
         }
         
