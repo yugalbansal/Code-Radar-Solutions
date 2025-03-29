@@ -23,7 +23,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
     sort(arr,n);
-    if(arr[n-1]==arr[n-2]){
+    if(arr[n-1]==arr[0]){
         printf("-1");
     }
     else if(n>1){
