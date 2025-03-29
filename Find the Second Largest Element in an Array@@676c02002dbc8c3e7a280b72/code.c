@@ -23,6 +23,6 @@ int main() {
         scanf("%d", &arr[i]);
     }
     sort(arr,n);
-    printf("%d",arr[n-2])
+    printf("%d",arr[n-2]);
  return 0;
 }
