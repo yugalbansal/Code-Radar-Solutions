@@ -15,9 +15,11 @@ int main(){
             printf("%d",i);
             break;
         }
-        else(
+        else{ 
+
             printf("-1");
-        )
+        }
+        
         
     }
    
