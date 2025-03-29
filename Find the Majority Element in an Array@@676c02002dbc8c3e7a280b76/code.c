@@ -10,7 +10,7 @@ int main(){
         arr2[i]=-1;
     }
     for(int i=0;i<n;i++){
-        int count=0;
+        int count=1;
         if(arr2[i]!=-1){
             continue;
         }
