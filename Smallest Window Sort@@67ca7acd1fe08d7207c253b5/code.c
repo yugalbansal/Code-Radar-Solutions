@@ -10,7 +10,7 @@ int findUnsortedSubarray(int arr[],int n){
     }
     // we have to find now maximum and min element .
     int max=arr[left],min=arr[left];
-    for(int i=0;i<n;i++){
+    for(int i=left;i<right;i++){
         if(arr[i]>max) max=arr[i];
         if(arr[i]<min) min=arr[i];
     }
