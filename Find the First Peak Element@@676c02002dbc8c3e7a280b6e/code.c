@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 int peakElement(int arr[], int n) {
-    if (n == 1) return arr[0];  // Fix: Single element is always a peak
+    if (n == 1) return arr[0];  
     
-    if (arr[0] > arr[1]) return arr[0];  // Fix: Correct first element check
-    if (arr[n-1] > arr[n-2]) return arr[n-1];  // Fix: Correct last element check
+    if (arr[0] > arr[1]) return arr[0]; 
 
-    for (int i = 1; i < n - 1; i++) {  // Fix: Start from index 1, go till n-2
+    for (int i = 1; i < n - 1; i++) {  
         if (arr[i] > arr[i - 1] && arr[i] > arr[i + 1]) {
-            return arr[i];  // Found a peak
+            return arr[i];  
         }
     }
+    if (arr[n-1] > arr[n-2]) return arr[n-1];  
 
-    return -1;  // No peak found
+    return -1; 
 }
 
 int main() {
