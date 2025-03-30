@@ -15,7 +15,7 @@ int main() {
         }
     }
     for(int i=count;i<n;i++){
-        arr1[count]=0;
+        arr1[i]=0;
     }
     for(int i=0;i<n;i++){
         printf("%d ",arr1[i]);
