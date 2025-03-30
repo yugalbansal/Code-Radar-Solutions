@@ -19,9 +19,9 @@ int main(){
             j++;
         }
         if(leader){
-            printf("%d",arr[i]);
+            printf("%d ",arr[i]);
         }
     }
-    printf("%d ",arr[-1]);
+    printf("%d ",arr[n-1]);
     
 }
