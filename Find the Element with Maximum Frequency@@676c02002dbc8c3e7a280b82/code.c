@@ -24,9 +24,9 @@ int main(){
     }
     int index=0;
     for(int i=0;i<n;i++){
-        max=arr[0];
+        int max=arr[0];
         if(freq[i]>max){
-            max=arr[i]
+            max=arr[i];
             index=i;
         }
     }
