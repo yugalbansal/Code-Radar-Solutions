@@ -14,6 +14,7 @@ int main() {
     if (evenCount == 0) {
         printf("-1");
     }
+    else{
     int max = evenArr[0];
     for (int i = 1; i < evenCount; i++) {
         if (evenArr[i] > max) {
@@ -21,6 +22,7 @@ int main() {
         }
     }
     printf("%d\n", max);
+    }
     
     return 0;
 }
