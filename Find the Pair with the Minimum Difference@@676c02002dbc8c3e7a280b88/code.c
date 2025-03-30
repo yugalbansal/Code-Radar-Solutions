@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int diff = arr[1]-arr[0];
-    int m=1,p=0;
+    int m=0,p=0;
     for (int i = 1; i < n; i++) {
         if (arr[i] - arr[i - 1] <= diff) {
             diff = arr[i] - arr[i - 1];
@@ -17,5 +17,5 @@ int main(){
             p = i - 1;
         }
     }
-    printf("%d %d",arr[m],arr[p]);
+    printf("%d %d",arr[p],arr[m]);
 }
