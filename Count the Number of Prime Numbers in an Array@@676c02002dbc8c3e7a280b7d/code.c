@@ -15,7 +15,7 @@ int prime(int n){
 int isPrime(int arr[],int n){
     int count=0;
     for(int i=0;i<n;i++){
-        if(isPrime(arr[i])){
+        if(Prime(arr[i])){
             count++;
         }
     }
