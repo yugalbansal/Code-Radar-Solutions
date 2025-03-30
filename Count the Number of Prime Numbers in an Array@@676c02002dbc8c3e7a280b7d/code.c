@@ -31,6 +31,6 @@ int main(){
         scanf("%d",&arr[i]);
         
     }
-   int result=repeat(arr,n);
+   int result=isPrime(arr,n);
    printf("%d",result);
 }
