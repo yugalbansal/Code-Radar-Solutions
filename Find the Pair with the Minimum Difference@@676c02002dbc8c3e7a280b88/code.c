@@ -8,15 +8,15 @@ int main(){
         scanf("%d",&n);
     }
     int diff = arr[1]-arr[0];
-    int m=1,n=1;
+    int m=1,p=0;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(arr[j]-arr[i]<diff){
                 diff=arr[j]-arr[i];
                 m=j;
-                n=i;
+                p=i;
             }
         }
     }
-    printf("%d %d",arr[j],arr[i]);
+    printf("%d %d",arr[m],arr[p]);
 }
