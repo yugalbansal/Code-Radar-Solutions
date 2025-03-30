@@ -1,27 +1,26 @@
 #include <stdio.h>
-int even(int arr[],int evenArr[],int n){
-    for(int i=0;i<n;i++){
-        if(arr[i]%2==0){
-            evenArr[i]=arr[i];
-        }
-    } 
-        int max=evenArr[0];
-    for(int i=0;i<n;i++){
-        if(evenArr[i]>max){
-            max=evenArr[i];
-        }
-    }
-    return max;      
-}  
-    
-int main(){
+
+int main() {
     int n;
-    scanf("%d",&n);
-    int arr[n];
-    int evenArr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+    scanf("%d", &n);
+    
+    int evenArr[n], evenCount = 0,num;
+    for (int i = 0; i < n; i++) {
+        num=scanf("%d",&num);
+        if (num % 2 == 0) {
+            evenArr[evenCount++] = arr[i];  
+        }
     }
-   int result=even(arr,evenArr,n);
-   (result>0)?printf("%d",result):printf("-1");
+    if (evenCount == 0) {
+        printf("-1");
+    }
+    int max = evenArr[0];
+    for (int i = 1; i < evenCount; i++) {
+        if (evenArr[i] > max) {
+            max = evenArr[i];
+        }
+    }
+    printf("%d\n", max);
+    
+    return 0;
 }
