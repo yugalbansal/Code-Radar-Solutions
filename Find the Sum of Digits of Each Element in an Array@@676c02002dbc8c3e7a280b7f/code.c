@@ -5,7 +5,7 @@ int isPrime(int arr[],int n){
     for(int i=0;i<n;i++){
         sum+=arr[i];
     }
-    return count;
+    return sum;
 }
 
 int main(){
