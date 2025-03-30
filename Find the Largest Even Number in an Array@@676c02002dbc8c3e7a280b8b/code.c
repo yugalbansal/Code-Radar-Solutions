@@ -3,7 +3,7 @@ int even(int arr[],int even[],int n){
     int e;
     for(int i=0;i<n;i++){
         if(arr[i]%2==0){
-            evenArr[i]=arr[i]
+            evenArr[i]=arr[i];
         }
     } 
     for(int i=0;i<n;i++){
