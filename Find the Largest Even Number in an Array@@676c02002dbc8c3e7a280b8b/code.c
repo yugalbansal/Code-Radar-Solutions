@@ -23,6 +23,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-   int result=even(arr,n);
+   int result=even(arr,evenArr,n);
    (result>0)?printf("%d",result):printf("-1");
 }
