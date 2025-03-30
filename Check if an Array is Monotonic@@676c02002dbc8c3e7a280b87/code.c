@@ -16,7 +16,7 @@ int main() {
             lcount++;
         }
     }
-    if(lcount==n||rcount==n){
+    if(lcount==n-1||rcount==n-1){
         printf("YES");
     
     }
