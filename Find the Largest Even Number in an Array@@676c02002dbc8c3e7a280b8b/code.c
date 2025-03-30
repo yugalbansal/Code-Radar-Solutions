@@ -8,7 +8,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         num=scanf("%d",&num);
         if (num % 2 == 0) {
-            evenArr[evenCount++] = arr[i];  
+            evenArr[evenCount++] = num;  
         }
     }
     if (evenCount == 0) {
