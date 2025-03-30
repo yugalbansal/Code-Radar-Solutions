@@ -9,8 +9,8 @@ int repeat(int arr[],int n){
              
             }
         }
-                return max;
     }
+                return max;
     return -1;
 }
 
