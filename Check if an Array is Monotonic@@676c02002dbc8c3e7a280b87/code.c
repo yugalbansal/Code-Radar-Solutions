@@ -12,7 +12,7 @@ int main() {
         if(arr[i+1]>=arr[i]){
             rcount++;
         }
-        if(arr[i]>=arr[i+1]){
+        else if(arr[i]>=arr[i+1]){
             lcount++;
         }
     }
