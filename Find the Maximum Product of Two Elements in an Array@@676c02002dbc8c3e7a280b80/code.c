@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int repeat(int arr[],int n){
+    int max = arr[0]*arr[1];
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(arr[j]*arr[i]>max){
