@@ -22,6 +22,8 @@ int main() {
                         arr[m] = -1;  // Mark as removed
                     }
                 }
+                i=-1;
+                break;
 
             }
         }
