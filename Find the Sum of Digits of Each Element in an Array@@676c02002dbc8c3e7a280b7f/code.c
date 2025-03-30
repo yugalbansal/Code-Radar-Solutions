@@ -4,8 +4,8 @@ int sum(int arr[],int n){
     int sum=0;
     for(int i=0;i<n;i++){
         sum+=arr[i];
+        printf("%d ",sum)
     }
-    return sum;
 }
 
 int main(){
@@ -17,6 +17,6 @@ int main(){
         scanf("%d",&arr[i]);
         
     }
-   int result=sum(arr,n);
-   printf("%d",result);
+    sum(arr,n);
+
 }
