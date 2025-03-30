@@ -6,7 +6,7 @@ int main() {
     
     int evenArr[n], evenCount = 0,num;
     for (int i = 0; i < n; i++) {
-        num=scanf("%d",&num);
+        scanf("%d",&num);
         if (num % 2 == 0) {
             evenArr[evenCount++] = num;  
         }
