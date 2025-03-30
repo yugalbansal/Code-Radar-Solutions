@@ -21,6 +21,7 @@ int main() {
                     if (arr[m] == arr[i] || arr[m] == arr[j]) {
                         arr[m] = -1;  // Mark as removed
                     }
+                }
 
             }
         }
