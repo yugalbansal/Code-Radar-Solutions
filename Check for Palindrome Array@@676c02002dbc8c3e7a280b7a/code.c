@@ -15,13 +15,13 @@ int main(){
             }
         }
     }
-    else(
-        for(int i=1;i<(n-1)/2;i++){
+    else{
+        for(int i=1;i<=(n-1)/2;i++){
             if(arr[i-1]==arr[n-i]){
                 count++;
             }
         }
-    )
+    }
     if(n/2==count){
         printf("YES");
     }
