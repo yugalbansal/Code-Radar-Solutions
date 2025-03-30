@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int sumdigit(int n){
-    int sum=0;
+    int sums=0;
     while(n!=0){
-        sum+=n%10;
+        sums+=n%10;
         n/=10;
     }
-    return sum;
+    return sums;
 }
 
 int sum(int arr[],int n){
