@@ -6,7 +6,7 @@ int sumdigit(int n){
         sums+=n%10;
         n/=10;
     }
-    if(sum<0){
+    if(sums<0){
         return sums*-1;
     }
     return sums;
