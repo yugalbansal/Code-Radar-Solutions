@@ -5,8 +5,8 @@ int even(int arr[],int evenArr[],int n){
             evenArr[i]=arr[i];
         }
     } 
+        int max=evenArr[0];
     for(int i=0;i<n;i++){
-        max=evenArr[0];
         if(evenArr[i]>max){
             max=evenArr[i];
         }
