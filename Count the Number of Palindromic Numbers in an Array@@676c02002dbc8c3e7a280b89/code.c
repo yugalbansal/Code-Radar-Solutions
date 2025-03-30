@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int ispallindrome(int n){
-    int a=n,digit,rev;
+    int a=n,digit,rev=0;
     while(a!=0){
         digit = a%10;
         rev=rev*10+digit;
@@ -15,9 +15,9 @@ int ispallindrome(int n){
 int pallindrome(int arr[],int n){
     int count=0;
     for(int i=0;i<n;i++){
-                if(ispallindrome(arr[i])){
-                    count++;
-                }
+        if(ispallindrome(arr[i])){
+            count++;
+        }
     } 
     return count;      
 }  
