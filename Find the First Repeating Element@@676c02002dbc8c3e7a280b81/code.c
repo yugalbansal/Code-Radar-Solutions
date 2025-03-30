@@ -23,6 +23,6 @@ int main(){
         scanf("%d",&arr[i]);
         freq[i]=-1;
     }
-   result=repeat(arr,n);
+   int result=repeat(arr,n);
    printf("%d",result);
 }
